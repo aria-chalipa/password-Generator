@@ -2,6 +2,10 @@
 
 A modern, user-friendly web application that generates strong and secure passwords. This project is built with TypeScript, Tailwind CSS, and HTML5 to provide a clean, responsive interface for password generation.
 
+## 🚀 Live Demo
+
+Check out the live application here: **[Password Generator Live](https://aria-chalipa.github.io/password-Generator)**
+
 ## Features
 
 ✨ **Key Features**
@@ -58,7 +62,7 @@ npm run watch
 
 ### Running the Application
 
-1. Open `index.html` in your web browser
+1. Open `index.html` in your web browser or visit the [live demo](https://aria-chalipa.github.io/password-Generator)
 2. Enter the desired password length (4-20 characters)
 3. Click the "Generate" button to create a password
 4. Click the "Copy" button to copy the password to your clipboard
@@ -78,6 +82,19 @@ To rebuild CSS:
 ```bash
 npx tailwindcss -i ./src/input.css -o ./src/output.css
 ```
+
+### Deploying to GitHub Pages
+
+This project is deployed using GitHub Pages. The application is automatically served from the `main` branch at:
+```
+https://aria-chalipa.github.io/password-Generator
+```
+
+To deploy your own version:
+1. Push changes to the `main` branch
+2. Enable GitHub Pages in repository settings (Settings → Pages)
+3. Select `main` branch as the source
+4. Your site will be live at `https://yourusername.github.io/password-Generator`
 
 ## Browser Compatibility
 
@@ -104,4 +121,4 @@ This project is licensed under the ISC License.
 
 ---
 
-**Note**: This is a client-side application with no backend requirements. All password generation happens locally in your browser for maximum security.
+**Note**: This is a client-side application with no backend requirements. All password generation happens locally in your browser for maximum security. No data is sent to any server.
