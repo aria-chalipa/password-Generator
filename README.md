@@ -11,6 +11,10 @@ Check out the live application here: **[Password Generator Live](https://aria-ch
 ✨ **Key Features**
 - 🔐 Generate strong and secure passwords
 - 📏 Customize password length (4-20 characters)
+- 🎛️ **Multiple password type options**:
+  - **All**: Mix of uppercase, lowercase, numbers, and special characters
+  - **Numbers Only**: Generate numeric passwords
+  - **Characters Only**: Generate alphabetic passwords (letters only)
 - 🎨 Modern, responsive UI with dark theme
 - 📋 One-click copy functionality
 - ⚡ Real-time password generation
@@ -64,15 +68,23 @@ npm run watch
 
 1. Open `index.html` in your web browser or visit the [live demo](https://aria-chalipa.github.io/password-Generator)
 2. Enter the desired password length (4-20 characters)
-3. Click the "Generate" button to create a password
-4. Click the "Copy" button to copy the password to your clipboard
+3. **Select the password type**:
+   - **All**: Generates passwords with mixed character types
+   - **Numbers Only**: Generates numeric-only passwords
+   - **Characters Only**: Generates letter-only passwords
+4. Click the "Generate" button to create a password
+5. Click the "Copy" button to copy the password to your clipboard
 
 ## How It Works
 
 1. **Input**: User specifies the desired password length using the number input (range: 4-20)
-2. **Generation**: Click the generate button to create a strong, random password
-3. **Display**: The generated password is displayed in the result area
-4. **Copy**: Use the copy button to quickly copy the password to clipboard
+2. **Password Type Selection**: Choose from three password generation modes:
+   - **All**: Combines uppercase letters, lowercase letters, numbers, and special characters
+   - **Numbers Only**: Uses only numeric digits (0-9)
+   - **Characters Only**: Uses only alphabetic characters (A-Z, a-z)
+3. **Generation**: Click the generate button to create a password based on your selections
+4. **Display**: The generated password is displayed in the result area
+5. **Copy**: Use the copy button to quickly copy the password to clipboard
 
 ## Building & Deployment
 
